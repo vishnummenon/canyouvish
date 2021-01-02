@@ -1,12 +1,16 @@
 import React from "react"
 import Header from "../components/header"
-import { Link } from "gatsby"
+import Layout from "../components/layout"
 
-export default function Home() {
+const Home = () => {
   return (
-    <div style={{ color: `purple` }}>
-      <Link to="/about/">About Me</Link>
-      <Header headerText="Hello World!" />
-    </div>
+    <Layout>
+      <Header headerText="Vishnu M Menon" />
+      <p>
+        My portfolio website!
+      </p>
+    </Layout>
   )
 }
+
+export default Home
