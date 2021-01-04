@@ -1,12 +1,10 @@
 import React from "react"
-import Header from "../components/header"
 import Layout from "../components/layout"
 import Slider from "../components/slider"
 
 const Home = () => {
   return (
     <Layout>
-      <Header headerText="Vishnu M Menon" />
       <p>My portfolio website!</p>
       <Slider
         firstAlt="Snowman"
